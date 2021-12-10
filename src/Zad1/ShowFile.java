@@ -10,7 +10,7 @@ public class ShowFile {
         int bajt;
 
         try {
-            fis = new FileInputStream("C:\\Users\\mpala\\Desktop\\plik.txt");
+            fis = new FileInputStream("plik.txt");
         } catch (FileNotFoundException e) {
             System.out.println("Nie znaleziono pliku");
             return;
